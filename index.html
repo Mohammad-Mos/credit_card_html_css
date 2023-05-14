@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Credit Card</title>
+</head>
+<body>
+    <div class="continer">
+        <form action="#">
+            <div class="top">
+                <h2>Paymanet info</h2>
+            </div>
+            <div class="input">
+                <div class="name">
+                    <label class="lbl-name" for="name">
+                        Full Name
+                    </label>
+                    <input class="inp-name" name="name" type="text" placeholder="Full Name">
+                </div>
+                <div class="number">
+                    <label for="number-card" class="lbl-num">
+                        Credit Card Number
+                    </label>
+                    <input type="number" class="inp-num" name="number-card" placeholder="1234-1234-1234-1234">
+                </div>
+                <div class="exp_cvv">
+                    <div class="exp">
+                        <label for="data" class="lbl_exp">Exp Data</label>
+                        <input type="data" class="inp_exp" name="data" placeholder="MM/YY">
+                    </div>
+                    <div class="cvv">
+                        <label for="cvv" class="lbl_cvv">CVV</label>
+                        <input type="password" class="inp_cvv" name="cvv" placeholder="CVV">
+                    </div>
+                </div>
+                <div class="zip-code">
+                    <label for="zip" class="lbl_zip">Zip Code</label>
+                    <input type="password" class="inp_zip" name="zip" placeholder="90210">
+                </div>
+            </div>
+            <div class="confrim">
+                <button class="btn_conf">Confrim Paymanet</button>
+                <p>You verify that this info is correct</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
